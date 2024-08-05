@@ -1,0 +1,93 @@
+body {
+    background-color: cornsilk;
+}
+  
+#navbar {
+  height: fit-content;
+  background-color: #e10202;
+  position: fixed;
+  top:0;
+  width: 100%;
+  left:0;
+}
+
+.navtext {
+  align-items: center;
+}
+
+#logo {
+  /* Centre the Logo */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.column {
+  float: left;
+  width: 32.33%;
+  height: 5rem;
+  margin: 0.5%;
+  border-radius: 0.8rem;
+  background-color: #e10202;
+  color: whitesmoke;
+  font-size: 0.6rem;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu {
+  margin-top: 5rem;
+}
+
+#main {
+  transition: 0.5s;
+}
+
+#menu-icon {
+  font-size:4.5em;
+  color: whitesmoke;
+  float: right;
+}
+
+#menu-icon:hover {
+  color: #111;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+#sidebar-menu-icon {
+  color: #111;
+  top: 0;
+  right:0;
+  font-size: 4.5rem;
+  position: absolute;
+}
+
+#sidebar-menu-icon:hover {
+  color: whitesmoke;
+  transition: 0.5s;
+}
+
+#sidebar {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1;
+  top: 0;
+  right: 0px;
+  background-color: #e10202;  
+  overflow-x: hidden; 
+  transition: 0.5s; 
+  text-align: center;
+}
+
+#sideTitle {
+  font-size: 3rem;
+  color: whitesmoke;
+  font-weight: bold;
+}
