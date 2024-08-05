@@ -3,7 +3,7 @@ body {
 }
   
 #navbar {
-  height: fit-content;
+  height: 8.5%;
   background-color: #e10202;
   position: fixed;
   top:0;
@@ -20,6 +20,8 @@ body {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
+  height: inherit;
+  overflow: hidden;
 }
 
 .column {
