@@ -20,7 +20,7 @@ body {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
-  height: inherit;
+  height: 98%;
   overflow: hidden;
 }
 

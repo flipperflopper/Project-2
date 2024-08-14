@@ -19,13 +19,17 @@
 </div>
 
 <div class="menu" id="main">
+    <form method="post" action="/order">
     % for group in menu:
     <div class="row">
         % for record in group:
-        <div class="column" onclick="addItem('{{record[0]}}')"><h1>{{record[0]}}</h1></div>
+        <button type="submit" name="item" value = "{{record[0]}}" class="column">
+        <span><h1>{{record[0]}}</h1></span>
+        </button>
         % end
     </div>
     % end
+    </form>
 </div>
 
 </body>

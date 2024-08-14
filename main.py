@@ -17,6 +17,11 @@ def index():
     groups = [menuItems[i:min(i+3, len(menuItems))] for i in range(0, len(menuItems), 3)]
     return template("index", menu=groups)
 
+@route("/order", method="POST")
+def index():
+    
+    return template("order")
+
 
 run(host="localhost", port=8080, debug=True, reloader=True)
 

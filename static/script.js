@@ -10,8 +10,3 @@ function openNav() {
     document.getElementById("sidebar").style.width = "0";
     document.getElementById("main").style.marginRight = "0";
   } 
-
-// when a menu item is clicked it is added to the order list
-function addItem(item) {
-  console.log(item);
-}
